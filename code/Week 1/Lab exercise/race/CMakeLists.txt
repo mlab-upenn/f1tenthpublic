@@ -1,9 +1,10 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(race)
+project(race) # this is the package name
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
+# define the dependencies of this package on libraries.
 find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
@@ -47,7 +48,7 @@ find_package(catkin REQUIRED COMPONENTS
 ##   * uncomment the generate_messages entry below
 ##   * add every package in MSG_DEP_SET to generate_messages(DEPENDENCIES ...)
 
-## Generate messages in the 'msg' folder
+## Generate messages in the 'msg' folder. Add message files that you created here. 
 	add_message_files(
 		FILES
 		drive_param.msg
@@ -55,14 +56,14 @@ find_package(catkin REQUIRED COMPONENTS
     pid_input.msg
 	)
 
-## Generate services in the 'srv' folder
+## Generate services in the 'srv' folder [we do not use these]
 # add_service_files(
 #   FILES
 #   Service1.srv
 #   Service2.srv
 # )
 
-## Generate actions in the 'action' folder
+## Generate actions in the 'action' folder [we do not use these]
 # add_action_files(
 #   FILES
 #   Action1.action
@@ -132,8 +133,8 @@ include_directories(
 ## either from message generation or dynamic reconfigure
 # add_dependencies(race ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
-## Declare a C++ executable
-# add_executable(race_node src/race_node.cpp)
+## Declare a C++ executable. This is C code that defines new nodes similar to talker.py in Python
+# add_executable(race_node src/race_node.cpp) # race_node is the node name , followed by the path to the src file.
 add_executable(odom_scan_matcher src/getOdomFromMatcher.cpp)
 add_executable(hectorOdom src/hectorOdom.cpp)
 add_executable(amclOdom src/amclOdom.cpp)
