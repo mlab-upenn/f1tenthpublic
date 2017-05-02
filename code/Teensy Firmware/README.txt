@@ -17,7 +17,7 @@ Setup Arduino with Teensy:
 
 
 3) To setup libraries:
-	First source all your workspace to make sure you don't  miss out in generating message headers for your package.
+	First source all your workspace (from week 1) to make sure you don't  miss out in generating message headers for your package.
 	Go to the libraries folder inside arduino sketch book. 
 
 	commands :
