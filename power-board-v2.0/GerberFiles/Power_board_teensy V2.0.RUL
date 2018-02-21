@@ -1,0 +1,8 @@
+DRC Rules Export File for PCB: C:\Users\netar\Dropbox\F1-10\V1.3\Imported Power_board_teensy V2.0.PrjPcb\Power_board_teensy V2.0.PcbDoc
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=6.00
+RuleKind=SolderMaskExpansion|RuleName=mlMinStopFrame|Scope=Board|Minimum=3.00
+RuleKind=Width|RuleName=Width_1|Scope=Board|Minimum=6.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=Clearance (Same Net)|Scope=Board|Minimum=0.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
