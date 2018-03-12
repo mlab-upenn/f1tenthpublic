@@ -16,14 +16,18 @@ Setup Arduino with Teensy:
 	sudo apt-get install ros-indigo-rosserial
 
 
-3) To setup libraries:
-	First source all your workspace (from week 1) to make sure you don't  miss out in generating message headers for your package.
-	Go to the libraries folder inside arduino sketch book. 
+3) To setup libraries (use custom messages):
+	- go into race folder from Week 2
+	- create build folder: `mkdir build`
+	- move into it: `cd build`
+	- run cmake on parent folder: `cmake ..`
+	- now Makefile is available, so run it with: `make`
+	- source created setup file: `source ./devel/setup.bash`
+	- move into [place_for_arduino_projects]/libraries
+	- delete old ros libs folder `rm -rf ros_lib`
+	- run rosserial libraries builder `rosrun rosserial-arduino make_libraries.py .`
 
-	commands :
-	cd <sketchbook>/libraries
-	rm -rf ros_lib
-	rosrun rosserial_arduino make_libraries.py .
+	Now, you should be able to find folder `race` in `ros_lib` folder with 3 header files (custom messages).
 
 4)	Once this is configured : 
 	Choose Teensy 3.2/3.1 in Tools menu of arduino software. Also make sure settings are configured to : "serial" and "96 Mhz optimized".
