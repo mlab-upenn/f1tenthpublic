@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+<!--   <include file="$(find racecar_gazebo)/launch/racecar_tunnel.launch"/> -->
+  <include file="$(find racecar_gazebo)/launch/racecar.launch">
+    <arg name="world_name" value="racecar_tunnel"/>
+  </include>
+
+  <node pkg="race" name="control_node" type="control.py" output="screen"/>
+  <node pkg="race" name="sim_connector_node" type="sim_connector.py"/>
+  <node pkg="race" name="levine_demo_node" type="levineDemo.py"/>
+</launch>
