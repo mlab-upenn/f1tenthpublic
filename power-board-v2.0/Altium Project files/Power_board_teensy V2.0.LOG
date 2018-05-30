@@ -1,0 +1,92 @@
+Importer Log Report
+Project : Power_board_teensy V2.0.PrjPcb
+
+Section : Analyze Document - D:\Dropbox\F1-10\V1.3\CS_LIB.lbr
+    Analyzing data of D:\Dropbox\F1-10\V1.3\CS_LIB.lbr
+    Load settings
+    Load layers 46
+    Load Library library
+    Load Library ""
+    Load Packages 19
+    Load Symbols 18
+    Load DeviceSets 18
+EndSection
+
+Section : Analyze Document - D:\Dropbox\F1-10\V1.3\SparkFun-Connectors.lbr
+    Analyzing data of D:\Dropbox\F1-10\V1.3\SparkFun-Connectors.lbr
+    Load settings
+    Load layers 143
+    Load Library library
+    Load Library ""
+    Load Packages 312
+    Load Symbols 87
+    Load DeviceSets 90
+EndSection
+
+Section : Analyze Document - D:\Dropbox\F1-10\V1.3\Power_board_teensy V2.0.brd
+    Analyzing data of D:\Dropbox\F1-10\V1.3\Power_board_teensy V2.0.brd
+    Load settings
+    Load layers 143
+    Load Library "resistor"
+    Load Packages 1
+    Load Library "con-lstb"
+    Load Packages 1
+    Load Library "pinhead"
+    Load Packages 1
+    Load Library "led"
+    Load Packages 1
+    Load Library "eagle-ltspice"
+    Load Packages 1
+    Load Library "CS_LIB"
+    Load Packages 9
+    Load Library "con-molex"
+    Load Packages 1
+EndSection
+
+Section : Analyze Document - D:\Dropbox\F1-10\V1.3\Power_board_teensy V2.0.sch
+    Analyzing data of D:\Dropbox\F1-10\V1.3\Power_board_teensy V2.0.sch
+    Load settings
+    Load layers 143
+    Load schematic
+    Load Libraries 9
+    Load Library "con-lstb"
+    Load Packages 1
+    Load Symbols 1
+    Load DeviceSets 1
+    Load Library "eagle-ltspice"
+    Load Packages 18
+    Load Symbols 1
+    Load DeviceSets 1
+    Load Library "led"
+    Load Packages 37
+    Load Symbols 1
+    Load DeviceSets 1
+    Load Library "CS_LIB"
+    Load Packages 10
+    Load Symbols 8
+    Load DeviceSets 9
+    Load Library "SparkFun-Aesthetics"
+    Load Packages 0
+    Load Symbols 1
+    Load DeviceSets 1
+    Load Library "supply1"
+    Load Packages 0
+    Load Symbols 3
+    Load DeviceSets 3
+    Load Library "resistor"
+    Load Packages 78
+    Load Symbols 1
+    Load DeviceSets 1
+    Load Library "pinhead"
+    Load Packages 2
+    Load Symbols 1
+    Load DeviceSets 1
+    Load Library "con-molex"
+    Load Packages 1
+    Load Symbols 2
+    Load DeviceSets 1
+    Load Attributes 0
+    Load Classes 1
+    Load Parts 56
+    Load Sheets 1
+EndSection

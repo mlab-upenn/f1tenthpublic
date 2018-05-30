@@ -1,0 +1,36 @@
+Bill of Material for 
+On 1/31/2018 at 2:59:21 PM
+
+ Comment             Pattern     Quantity  Components
+------------------------------------------------------------------------------
+ 0.33uF              C050-035X075     1    C5                           CAPACITOR, American symbol 
+ 1                   MA03-1           1    CON1                         PIN HEADER           
+ 100n                C050-035X075     2    C3, C4                       CAPACITOR, American symbol 
+ 100nF               C050-035X075     3    C6, C8, C9                   CAPACITOR, American symbol 
+ 100u                C050-035X075     2    C1, C2                       CAPACITOR, American symbol 
+ 10uF                C050-035X075     1    C7                           CAPACITOR, American symbol 
+ 12 V                CP-054-ND        1    U$7                          DigiKey: http://www.digikey.com/product-detail/en/cui-inc/PJ-054/CP-054-ND/1644595 Data Sheet: http://www.cui.com/product/resource/pj-054.pdf 
+ 12V to 8V LDO       BA7808CP-E2      1    U1                           12V to 8V LDO        
+ 12V_TRANSFORMER     12V_TRANSFORMER    1    U$9                          CUI Inc ¦ SERIES: PDQ30-D ¦ DESCRIPTION: DC-DC CONVERTER http://www.mouser.com/pdfdocs/pdq30-d.pdf 
+ 2.2v 20mA           LED5MM           1    LED1                         LED   OSRAM: - CHIPLED LG R971, LG N971, LY N971, LG Q971, LY Q971, LO R971, LY R971 LH N974, LH R974 LS Q976, LO Q976, LY Q976 LO Q996 - Hyper CHIPLED LW Q18S LB Q993, LB Q99A, LB R99A - SideLED LS A670, LO A670, LY A670, LG A670, LP A670 LB A673, LV A673, LT A673, LW A673 LH A674 LY A675 LS A676, LA A676, LO A676, LY A676, LW A676 LS A679, LY A679, LG A679 -  Hyper Micro SIDELED® LS Y876, LA Y876, LO Y876, LY Y876 LT Y87S - SmartLED LW L88C, LW L88S LB L89C, LB L89S, LG L890 LS L89K, LO L89K, LY L89K LS L896, LA L896, LO L896, LY L896 - TOPLED LS T670, LO T670, LY T670, LG T670, LP T670 LSG T670, LSP T670, LSY T670, LOP T670, LYG T670 LG T671, LOG T671, LSG T671 LB T673, LV T673, LT T673, LW T673 LH T674 LS T676, LA T676, LO T676, LY T676, LB T676, LH T676, LSB T676, LW T676 LB T67C, LV T67C, LT T67C, LS T67K, LO T67K, LY T67K, LW E67C LS E67B, LA E67B, LO E67B, LY E67B, LB E67C, LV E67C, LT E67C LW T67C LS T679, LY T679, LG T679 LS T770, LO T770, LY T770, LG T770, LP T770 LB T773, LV T773, LT T773, LW T773 LH T774 LS E675, LA E675, LY E675, LS T675 LS T776, LA T776, LO T776, LY T776, LB T776 LHGB T686 LT T68C, LB T68C - Hyper Mini TOPLED® LB M676 - Mini TOPLED Santana® LG M470 LS M47K, LO M47K, LY M47K    Source: http://www.osram.convergy.de   LUXEON: - LUMILED® LXK2-PW12-R00, LXK2-PW12-S00, LXK2-PW14-U00, LXK2-PW14-V00 LXK2-PM12-R00, LXK2-PM12-S00, LXK2-PM14-U00 LXK2-PE12-Q00, LXK2-PE12-R00, LXK2-PE12-S00, LXK2-PE14-T00, LXK2-PE14-U00 LXK2-PB12-K00, LXK2-PB12-L00, LXK2-PB12-M00, LXK2-PB14-N00, LXK2-PB14-P00, LXK2-PB14-Q00 LXK2-PR12-L00, LXK2-PR12-M00, LXK2-PR14-Q00, LXK2-PR14-R00 LXK2-PD12-Q00, LXK2-PD12-R00, LXK2-PD12-S00 LXK2-PH12-R00, LXK2-PH12-S00 LXK2-PL12-P00, LXK2-PL12-Q00, LXK2-PL12-R00    Source: www.luxeon.com   KINGBRIGHT:   KA-3528ASYC Source: www.kingbright.com 
+ 2                   MA03-1           1    CON2                         PIN HEADER           
+ 22-23-2021          22-23-2021       9    X1, X2, X3, X4, X5, X6, X7   .100" (2.54mm) Center Header - 2 Pin 
+                                           X8, X9
+ 3.3v 10mA           LED5MM           2    D2, D3                       LED   OSRAM: - CHIPLED LG R971, LG N971, LY N971, LG Q971, LY Q971, LO R971, LY R971 LH N974, LH R974 LS Q976, LO Q976, LY Q976 LO Q996 - Hyper CHIPLED LW Q18S LB Q993, LB Q99A, LB R99A - SideLED LS A670, LO A670, LY A670, LG A670, LP A670 LB A673, LV A673, LT A673, LW A673 LH A674 LY A675 LS A676, LA A676, LO A676, LY A676, LW A676 LS A679, LY A679, LG A679 -  Hyper Micro SIDELED® LS Y876, LA Y876, LO Y876, LY Y876 LT Y87S - SmartLED LW L88C, LW L88S LB L89C, LB L89S, LG L890 LS L89K, LO L89K, LY L89K LS L896, LA L896, LO L896, LY L896 - TOPLED LS T670, LO T670, LY T670, LG T670, LP T670 LSG T670, LSP T670, LSY T670, LOP T670, LYG T670 LG T671, LOG T671, LSG T671 LB T673, LV T673, LT T673, LW T673 LH T674 LS T676, LA T676, LO T676, LY T676, LB T676, LH T676, LSB T676, LW T676 LB T67C, LV T67C, LT T67C, LS T67K, LO T67K, LY T67K, LW E67C LS E67B, LA E67B, LO E67B, LY E67B, LB E67C, LV E67C, LT E67C LW T67C LS T679, LY T679, LG T679 LS T770, LO T770, LY T770, LG T770, LP T770 LB T773, LV T773, LT T773, LW T773 LH T774 LS E675, LA E675, LY E675, LS T675 LS T776, LA T776, LO T776, LY T776, LB T776 LHGB T686 LT T68C, LB T68C - Hyper Mini TOPLED® LB M676 - Mini TOPLED Santana® LG M470 LS M47K, LO M47K, LY M47K    Source: http://www.osram.convergy.de   LUXEON: - LUMILED® LXK2-PW12-R00, LXK2-PW12-S00, LXK2-PW14-U00, LXK2-PW14-V00 LXK2-PM12-R00, LXK2-PM12-S00, LXK2-PM14-U00 LXK2-PE12-Q00, LXK2-PE12-R00, LXK2-PE12-S00, LXK2-PE14-T00, LXK2-PE14-U00 LXK2-PB12-K00, LXK2-PB12-L00, LXK2-PB12-M00, LXK2-PB14-N00, LXK2-PB14-P00, LXK2-PB14-Q00 LXK2-PR12-L00, LXK2-PR12-M00, LXK2-PR14-Q00, LXK2-PR14-R00 LXK2-PD12-Q00, LXK2-PD12-R00, LXK2-PD12-S00 LXK2-PH12-R00, LXK2-PH12-S00 LXK2-PL12-P00, LXK2-PL12-Q00, LXK2-PL12-R00    Source: www.luxeon.com   KINGBRIGHT:   KA-3528ASYC Source: www.kingbright.com 
+ 3                   MA03-1           1    CON3                         PIN HEADER           
+ 360-3240-ND         360-3240-ND      3    U$3, U$4, U$5                SPST two lead switch Pin 2 is common Swtich Closed on Down Position DigiKey: http://www.digikey.com/product-detail/en/nkk-switches/M2011S2A1W01/360-3240-ND/1049342 Data Sheet: http://2t70un3m1d9z1kztamkdrd38.wpengine.netdna-cdn.com/wp-content/uploads/2016/02/MtogglesBushing.pdf 
+ 360ohms             0207/10          2    R2, R3                       RESISTOR, European symbol 
+ 4                   MA03-1           1    CON4                         PIN HEADER           
+ 70ohms              0207/10          1    R1                           RESISTOR, European symbol 
+ AGND                                 1    AGND2                        SUPPLY SYMBOL        
+ antenna pads        Antenna pads     1    P1                                                
+ BATT                BATTERY_CONNECTOR    1    U$10                                              
+ CKN9565-NDCKN9565-ND CKN9565-ND       2    SWITCH1, SWITCH2                                  
+ GND_12                               2    AGND1, AGND3                 SUPPLY SYMBOL        
+ LIPO_PROTECTION     LIPO_PROTECTION    1    U$2                                               
+ PINHD-2X5           2X05             1    JP1                          PIN HEADER           
+ TEENSY-3.2          TEENSY-3.2       1    U$1                          0.1" pin spacing     
+ V11.2                                1    V1                           SUPPLY SYMBOL        
+ V12                                  7    VDD1, VDD5, VDD6, VDD7, VDD8 SUPPLY SYMBOL        
+                                           VDD9, VDD10
+ V8                                   3    VDD2, VDD3, VDD4             SUPPLY SYMBOL        
