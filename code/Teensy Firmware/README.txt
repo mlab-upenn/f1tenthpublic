@@ -25,7 +25,7 @@ Setup Arduino with Teensy:
 	- source created setup file: `source ./devel/setup.bash`
 	- move into [place_for_arduino_projects]/libraries
 	- delete old ros libs folder `rm -rf ros_lib`
-	- run rosserial libraries builder `rosrun rosserial-arduino make_libraries.py .`
+	- run rosserial libraries builder `rosrun rosserial_arduino make_libraries.py .`
 
 	Now, you should be able to find folder `race` in `ros_lib` folder with 3 header files (custom messages).
 
