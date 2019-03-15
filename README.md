@@ -14,7 +14,7 @@ The following parts need to be laser cut:
 * Lidar_Mount_10LX.DWG or Lidar_Mount_30LX.DWG
 
 The following parts need to be 3D printed:
-Camera_Mount.STL
+* Camera_Mount.STL
 
 The 3dPrints folder contains optional parts for zed camera.
 
