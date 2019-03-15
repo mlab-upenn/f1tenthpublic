@@ -25,5 +25,12 @@ The following parts need to be 3D printed:
 
 The 3dPrints folder contains optional parts for zed camera.
 
+If the FOCBOX cannot fit under the small power board, you can use only 3 standoffs to mount the power board.
+
 ## Power-board-v2.0
 Old power board design source files. Obsolete. Designed in Altium Designer.
+
+## Change log
+v3:
+Updated power board. Removed teensy and lithium battery charging module because no one would run the car while charging the battery.
+Updated chassis to match the smaller power board.
