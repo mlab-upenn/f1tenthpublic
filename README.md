@@ -5,7 +5,7 @@ This repository hosts all of the code, CAD files, and other resources necessary 
 This is the bill of materials for building a F1/10 car. It contains order links for mechanical and electrical parts. The updated power board and parts list and order links are also inside.
 
 ## power-board-v3.zip
-The source files of power board v3. It is designed in Altium Designer. To order the powerboard, please go to "F1tenth BOM 2019.xlsx" and find the order link in "Bill of Material for Power Board v3.0" section. The order link is https://oshpark.com/shared_projects/PM1kJ6E3.
+The source files of powerboard is in the 'Power Board' folder. It is designed in Altium Designer. To order the powerboard, please go to "F1tenth BOM 2019.xlsx" and find the order link in the v3.0 tab section. The order link is https://tinyurl.com/f110powerboard2019.
 
 ### Warning: please test power board before connecting battery, Jetson and Lidar!
 After soldering the power board, please test the board with a DC power supply and multimeter. 
@@ -26,11 +26,3 @@ The following parts need to be 3D printed:
 The 3dPrints folder contains optional parts for zed camera.
 
 If the FOCBOX cannot fit under the small power board, you can use only 3 standoffs to mount the power board.
-
-## Power-board-v2.0
-Old power board design source files. Obsolete. Designed in Altium Designer.
-
-## Change log
-v3:
-Updated power board. Removed teensy and lithium battery charging module because no one would run the car while charging the battery.
-Updated chassis to match the smaller power board.
