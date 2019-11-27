@@ -5,7 +5,7 @@ This repository hosts all of the code, CAD files, and other resources necessary 
 This is the bill of materials for building a F1/10 car. It contains order links for mechanical and electrical parts. The updated power board and parts list and order links are also inside.
 
 ## power-board-v3.zip
-The source files of power board v3. It is designed in Altium Designer. To order the powerboard, please go to "F1tenth BOM 2019.xlsx" and find the order link in "Bill of Material for Power Board v3.0" section. The order link is https://oshpark.com/shared_projects/PM1kJ6E3.
+The source files of power board v3. It is designed in Altium Designer. To order the powerboard, please go to "F1tenth BOM 2019.xlsx" and find the order link in "Bill of Material for Power Board v3.0" section. The order link is https://oshpark.com/shared_projects/qvIKu3aY
 
 ### Warning: please test power board before connecting battery, Jetson and Lidar!
 After soldering the power board, please test the board with a DC power supply and multimeter. 
