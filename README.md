@@ -1,4 +1,8 @@
 # f1tenth_public, please read me
+2020-05-22
+This repository is no longer supported. Please see the new Build page at https://f1tenth.org/ for the most up to date BOM.
+
+
 This repository hosts all of the code, CAD files, and other resources necessary to get your car ready for competition.
 
 ## F1tenth BOM 2019.xlsx
